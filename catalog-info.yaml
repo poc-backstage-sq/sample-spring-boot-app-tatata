@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-spring-boot-app-tatata
+  title: sample-spring-boot-app-tatata
+  annotations:
+    github.com/project-slug: poc-backstage-sq/sample-spring-boot-app-tatata
+  #  sonarqube.org/project-key: poc-backstage-sq_sample-spring-boot-app-tatata
+  tags:
+    - spring-boot
+    - java
+    - maven
+    - github-actions
+    - renovate
+spec:
+  type: service
+  owner: sq
+  lifecycle: experimental
